@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.bg-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  transition: all linear 0.5s;
+}
+
+.screen-black {
+  background-color: #000;
+}
+
+.screen-gray {
+  background-color: rgb(33, 32, 32);
+}
+
+.screen-white {
+  background-color: rgb(247, 247, 247);
+}
+
+.button-container {
+  height: 70px;
+  width: 300px;
+  background-color: #ffffff54;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 10%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  padding: 7px 15px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+  cursor: pointer;
+}
+
+.black-button {
+  background-color: #000;
+  color: white;
+}
+
+.white-button {
+  background-color: #fff;
+  color: black;
+}
+
+.gray-button {
+  background-color: rgb(33, 32, 32);
+  color: white;
+}
